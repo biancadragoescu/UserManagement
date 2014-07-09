@@ -9,8 +9,11 @@
 	<body>
 		<h1>
 			Login page
-		</h1>		
-		<form:form action = "http://localhost:8080/usermanagement/login" commandName = "user" method = "POST">
+		</h1>	
+		<c:url value = "/login" var = "myUrl"/>	
+
+		<%-- <form:form action = "http://localhost:8080/usermanagement/login" commandName = "user" method = "POST"> --%> 
+		<form:form action = "${myUrl}" commandName = "user" method = "POST">
 			<table>
 				<tr>
 					<td>User Name:</td>
