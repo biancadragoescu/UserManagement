@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>Success</title>
+		<link rel="stylesheet" type="text/css" href="resources/login.css">
 	</head>
 	<body>
 		<h1>

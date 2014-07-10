@@ -1,0 +1,67 @@
+body {
+    background: url('bg.jpg');
+}
+
+#wrapper {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	width: 500px;
+	text-align: center;
+	opacity: 0.8;
+	-webkit-transition: all 0.5s ease;
+}
+
+#form {
+	position: relative;
+	width: 300px;
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0px 0px 15px -2px #000;
+	border-radius: 3px;
+}
+
+.field {
+	width: 100%;
+	height: 5%;
+	display: block;
+	color: #777;
+	background: #f9f9f9;
+	transition: color 0.3s ease-out;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	margin-top: 10px;
+	border: none;
+	padding: 5px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+	border-radius: 3px;
+}
+
+.field:first-child {
+	margin-top: 0px;
+}
+
+#button {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -30px;	
+	top: 50%;
+	right: -25px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #fff;
+	box-shadow: 12px 0px 29px -11px #000;
+	background-image: url(arrow.png);
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	background-color: #3DCDE3;
+	-webkit-transition: background-color 0.5s ease;
+}
+
+#button:hover {
+	background-color: #62CFA7; 
+}

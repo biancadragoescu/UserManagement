@@ -5,29 +5,19 @@
 <html>
 	<head>
 		<title>Login Page</title>
+		<link rel="stylesheet" type="text/css" href="resources/login.css">
 	</head>
 	<body>
-		<h1>
-			Login page
-		</h1>	
 		<c:url value = "/login" var = "myUrl"/>	
 
 		<%-- <form:form action = "http://localhost:8080/usermanagement/login" commandName = "user" method = "POST"> --%> 
-		<form:form action = "${myUrl}" commandName = "user" method = "POST">
-			<table>
-				<tr>
-					<td>User Name:</td>
-					<td><form:input path = "userName"/></td>
-				</tr>
-				<tr>
-					<td>Password:</td>
-					<td><form:password path= "password"/></td>
-				</tr>
-				<tr>
-					<td colspan = "2"><input type = "submit" value = "Ok"></td>
-				</tr>
-			</table>
-		</form:form>
+		<div id = "wrapper">
+			<form:form id = "form" action = "${myUrl}" commandName = "user" method = "POST">
+				<form:input  class = "field" path = "userName" placeholder = "Username"/>
+				<form:password class = "field" path = "password" placeholder = "Password"/>
+				<button id = "button" type = "submit">Login</button>
 			
+		</form:form>
+		</div>	
 	</body>
 </html>
