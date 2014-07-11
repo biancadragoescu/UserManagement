@@ -2,6 +2,7 @@ package com.evozon.usermanagement.data;
 
 
 public class User {
+
 	private String userName;
 	private String password;
 	
@@ -29,6 +30,11 @@ public class User {
 	
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	
+	@Override
+	public String toString() {
+		return "User [userName=" + userName + ", password=" + password + "]";
 	}
 	
 }

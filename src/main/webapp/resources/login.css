@@ -2,6 +2,10 @@ body {
     background: url('bg.jpg');
 }
 
+h1 {
+	text-align: center;
+}
+
 #wrapper {
 	margin-top: 100px;
 	margin-left: auto;
@@ -53,15 +57,15 @@ body {
 	border-width: 10px;
 	border-color: #fff;
 	box-shadow: 12px 0px 29px -11px #000;
-	background-image: url(arrow.png);
+	background-image: url(arrow1.png);
 	text-indent: -9999px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 60%;
-	background-color: #3DCDE3;
+	background-size: 50%;
+	background-color: #44A8C2;
 	-webkit-transition: background-color 0.5s ease;
 }
 
 #button:hover {
-	background-color: #62CFA7; 
+	background-color: #FF761A; 
 }
